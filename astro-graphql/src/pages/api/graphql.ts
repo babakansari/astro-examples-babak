@@ -35,3 +35,8 @@ export const POST: APIRoute = async (context) => {
   const { request } = context;
   return handleRequest(request, context);
 };
+
+export const GET: APIRoute = (context) => {
+  const { request } = context;
+  return handleRequest(request, context);
+}
